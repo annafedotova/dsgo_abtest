@@ -8,9 +8,9 @@ Hey there, thank you for signing up for my workshop! Here are some materials tha
 2. Download the zip folder with the dataset from this repository (available in .csv and .xlsx formats)
 3. (Optional) Read [A Practical Guide to A/B Testing by VWO](https://vwo.com/ab-testing/)
 4. (Optional) Watch [Tableau training videos](https://www.tableau.com/learn/training/20211), specifically: 
-  - Getting Started : Getting Started & The Tableau Interface
-  - Calculations: Calculation Syntax, Intro to Table Calculations & Introduction to LOD expressions
-  - Why is Tableau doing that? : Understanding Pill Types
+    - Getting Started : Getting Started & The Tableau Interface
+    - Calculations: Calculation Syntax, Intro to Table Calculations & Introduction to LOD expressions
+    - Why is Tableau doing that? : Understanding Pill Types
 
 
 
