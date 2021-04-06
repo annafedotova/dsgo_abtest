@@ -35,10 +35,10 @@ The dataset comes from a [tracking schema](https://meta.wikimedia.org/wiki/Schem
 | Column          | Value   | Description                                                                       |
 |:----------------|:--------|:----------------------------------------------------------------------------------|
 | uuid            | string  | Universally unique identifier (UUID) for backend event handling.                  |
-| timestamp       | integer | The date and time (UTC) of the event, formatted as YYYYMMDDhhmmss.                |
+| timestamp       | integer | The date and time (UTC) of the event.                |
 | session_id      | string  | A unique ID identifying individual sessions.                                      |
 | group           | string  | A label ("a" or "b").                                     |
-| action          | string  | Identifies in which the event was created. See below.                             |
+| action          | string  | Identifies which action triggered the event. See below.                             |
 | checkin         | integer | How many seconds the page has been open for.                                      |
 | page_id         | string  | A unique identifier for correlating page visits and check-ins.                    |
 | n_results       | integer | Number of hits returned to the user. Only shown for searchResultPage events.      |
