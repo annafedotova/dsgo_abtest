@@ -5,7 +5,7 @@ Hey there, thank you for signing up for my workshop! Here are some materials tha
 ## To Do before the workshop:
 
 1. Install Tableau Public from [here](https://public.tableau.com/en-us/s/download)
-2. Download the zip folder with the dataset from this repository (available in .csv and .xlsx formats)
+2. Download the zip folder with the dataset from this repository (available in .csv and .xlsx formats at the top of this page)
 3. (Optional) Read [A Practical Guide to A/B Testing by VWO](https://vwo.com/ab-testing/)
 4. (Optional) Watch [Tableau training videos](https://www.tableau.com/learn/training/20211), specifically: 
     - Getting Started : Getting Started & The Tableau Interface
@@ -30,7 +30,7 @@ and other metrics outside the scope of this task. Event Logging uses JavaScript 
 
 ## Data
 
-The dataset comes from a [tracking schema](https://meta.wikimedia.org/wiki/Schema:TestSearchSatisfaction2) that Discovery uses for assessing user satisfaction. Desktop users are randomly sampled to be anonymously tracked by this schema which uses a "I'm alive" pinging system that can be used to estimate how long users stay on the pages they visit. The dataset contains just a little more than a week of EL data.
+The dataset comes from a [tracking schema](https://meta.wikimedia.org/wiki/Schema:TestSearchSatisfaction2) that Discovery uses for assessing user satisfaction. Desktop users are randomly sampled to be anonymously tracked by this schema which uses a "I'm alive" pinging system to estimate how long users stay on the pages they visit. The dataset contains just a little more than a week of EL data.
 
 | Column          | Value   | Description                                                                       |
 |:----------------|:--------|:----------------------------------------------------------------------------------|
@@ -42,9 +42,9 @@ The dataset comes from a [tracking schema](https://meta.wikimedia.org/wiki/Schem
 | checkin         | integer | How many seconds the page has been open for.                                      |
 | page_id         | string  | A unique identifier for correlating page visits and check-ins.                    |
 | n_results       | integer | Number of hits returned to the user. Only shown for searchResultPage events.      |
-| result_position | integer | The position of the visited page's link on the search engine results page (SERP). |
+| result_position | integer | The position of the link to the visited page on the search engine results page (SERP). |
 
-The following are possible values for an event's action field:
+The following are possible values for the action field of an event:
 
 - **searchResultPage**: when a new search is performed and the user is shown a search results page.
 - **visitPage**: when the user clicks a link in the results.
