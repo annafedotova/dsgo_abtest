@@ -63,3 +63,4 @@ The following are possible values for the action field of an event:
 
 This user's search query returned 7 results, they clicked on the first result, and stayed on the page between 40 and 50 seconds. (The next check-in would have happened at 50s.)
 
+View [full recording of the workshop](https://www.youtube.com/watch?v=2UfdUIqlUSY) presented at DSGO Virtual conference in April 2021.
